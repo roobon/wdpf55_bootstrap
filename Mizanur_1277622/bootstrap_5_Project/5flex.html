@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
     <title>Flex</title>
+    <style>
+        .align-div{
+            height: 100px;            
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -91,14 +96,36 @@
     </div>
         <!-- Flex Justify content end -->
         <!-- Flex Align Items start -->
-        <div class="p-5 bg-warning mt-5">
-        <div>
-            <div class="d-flex align-items-end">flex align 1</div>
-            <div class="d-flex align-items-end">flex align 2</div>
-            <div class="d-flex align-items-end">flex align 3</div>
-        </div>
+
+        <div class="d-flex align-items-start bg-primary mt-4 mb-4 align-div">
+            <div>flex align 1</div>
+            <div>flex align 2</div>
+            <div>flex align 3</div>
         </div>
 
+        <div class="d-flex align-items-end bg-secondary mt-4 mb-4 align-div">
+            <div>flex align 1</div>
+            <div>flex align 2</div>
+            <div>flex align 3</div>
+        </div>
+
+        <div class="d-flex align-items-center bg-warning mt-4 mb-4 align-div">
+            <div>flex align 1</div>
+            <div>flex align 2</div>
+            <div>flex align 3</div>
+        </div>
+
+        <div class="d-flex align-items-baseline bg-light mt-4 mb-4 align-div">
+            <div>flex align 1</div>
+            <div>flex align 2</div>
+            <div>flex align 3</div>
+        </div>
+
+        <div class="d-flex align-items-stretch bg-danger mt-4 mb-4 align-div">
+            <div class="bg-success">flex align 1</div>
+            <div class="bg-light">flex align 2</div>
+            <div class="bg-warning">flex align 3</div>
+        </div>
         <!-- Flex Align Items end-->
 
 </body>
