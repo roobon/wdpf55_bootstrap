@@ -19,10 +19,26 @@
     <style>
         body{
             background-image: url(backgrount.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         .container{
             width: 50%;
-            background-color: gray;
+            background-color: rgba(0, 0, 0, .7);
+            color: white;
+        }
+        input[type="text"],input[type="email"], input[type="password"],textarea[name="address"]
+        {
+            border: none;
+            border-bottom: 1px solid white;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: white;
+            font-size: 16px;
+        }
+        ::placeholder{
+            color: white;
         }
     </style>
 </head>
@@ -38,7 +54,7 @@
                 <input type="text" name="name" class="form-control" placeholder="type your father's name">
             </div>
             <div class="form-group">
-                <label for="">Mother's mName</label>
+                <label for="">Mother's Name</label>
                 <input type="text" name="name" class="form-control" placeholder="type your mother's name">
             </div>
             <div class="form-group">
