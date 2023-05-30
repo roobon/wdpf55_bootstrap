@@ -17,6 +17,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <title>Form</title>
+    <style>
+        .container {
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -30,12 +35,43 @@
                 <input type="text" name="fathersname" class="form-control" placeholder="Type  Yours Father's Name  Here">
             </div>
             <div class="form-group">
-                <label for="">Mothbers Name</label>
+                <label for="">Mothers Name</label>
                 <input type="text" name="mothersname" class="form-control" placeholder="Type Your Mothers Name Here">
             </div>
             <div class="form-group">
                 <label for="">Phone Number</label>
                 <input type="number" name="phn number" class="form-control" placeholder="Type Your Phone Numbers Here">
+            </div>
+            <div class="form-group">
+                <div >
+                 <label for="">Gender:</label>
+                </div>
+                <div class="form-check-inline">
+                    <label for="" class="form-check-label">Female
+                        <input type="radio" name="gender" value="male" class="form-check-input">
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label for="" class="form-check-label">Male
+                        <input type="radio" name="gender" value="Female" class="form-check-input">
+                    </label>
+                </div>
+               
+               
+                
+            </div>
+            <div>
+                <label for="">Marital Status:</label>
+            </div>
+            <div class="form-check-inline">
+                <label for="" class="form-check-label">Single
+                    <input type="radio" name="marital status" value="Single" class="form-check-input">
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <label for="" class="form-check-label">Married
+                    <input type="radio" name="marital status" value="Married" class="form-check-input">
+                </label>
             </div>
         </form>
     </div>
