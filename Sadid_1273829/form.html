@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="FName">First Name</label>
+                <input type="text" class="form-control" placeholder="Input your first name">
+            </div>
+            <div class="form-group">
+                <label for="LName">Last Name</label>
+                <input type="text" class="form-control" placeholder="Input your last name">
+            </div>
+            <div class="form-group">
+                <label for="password">Email</label>
+                <input type="email" class="form-control" placeholder="Input your email">
+            </div>
+            <div class="form-group">
+                <label for="radio">Dropdown</label>
+                <select name="District" class="form-control">
+                    <option>Select one</option>
+                    <option>Dhaka</option>
+                    <option>Chittagoan</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea class="form-control" name="address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <input type="button" class="btn btn-block btn-success my-4 py-2" value="Submit">
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <form action="mypage.php">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="type your name here" class="form-control">
+                    </div>
+                    <div class="form-check-inline">
+                        <label for="Radio" class="form-check-label">Male
+                            <input type="radio" name="gender" class="form-check-input">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label for="Radio" class="form-check-label">Female
+                            <input type="radio" name="gender" class="form-check-input">
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <form>
+                    <label for="checkbox" class="form-group">
+                        <div class="form-check-inline">
+                            <label for="option 1" class="form-check-label"> HTML
+                                <input type="checkbox" class="form-check-input">
+                            </label>
+                        <div class="form-check-inline">
+                            <label for="option 2" class="form-check-label"> CSS
+                                <input type="checkbox" class="form-check-input">
+                            </label>
+                        <div class="form-check-inline">
+                            <label for="option 3" class="form-check-label"> JavaScript
+                                <input type="checkbox" class="form-check-input">
+                            </label>
+                        </div>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
