@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+}
+
+.header-container{
+    background-color: rgb(60, 151, 255);
+    padding: 10px;
+}
+.header-container img{
+    width: 300px;
+}
+.container{
+    margin-top: 15px;
+    display: flex;
+}
+
+
+ .menu-element{
+    list-style-type: none;
+    padding: 7px;
+    border: 1px solid rgb(60, 151, 255);
+    
+    margin-top: 10px;
+    color: white;
+}
+.menu-element a{
+    text-decoration: none;
+    color: rgb(60, 151, 255);
+    padding: 10px;
+}
+
+/* right section styles */
+.section-elements{
+    border: 1px solid  rgb(60, 151, 255) ;
+    padding: 10px;
+    margin-left: 10px;
+}
+.section-tite{
+    border: 1px solid  rgb(60, 151, 255) ;
+    background-color: rgb(222, 240, 255);
+    padding-left: 10px;
+   
+    
+}
+.section-content{
+    margin-top: 5px;
+}
+footer{
+    margin-top: 15px;
+    padding: 10px;
+    background-color:  rgb(60, 151, 255) ;
+    color: white;
+    text-align: center;
+}
