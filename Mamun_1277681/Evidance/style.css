@@ -14,27 +14,33 @@
     margin-top: 15px;
     display: flex;
 }
+.menu{
+    margin-left: 20px;
+}
 
 
  .menu-element{
     list-style-type: none;
-    padding: 7px;
+    padding: 10px;
     border: 1px solid rgb(60, 151, 255);
-    
+    text-align: center;
     margin-top: 10px;
     color: white;
 }
 .menu-element a{
     text-decoration: none;
+    text-align: center;
     color: rgb(60, 151, 255);
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 /* right section styles */
 .section-elements{
+    
     border: 1px solid  rgb(60, 151, 255) ;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .section-tite{
     border: 1px solid  rgb(60, 151, 255) ;
@@ -48,7 +54,7 @@
 }
 footer{
     margin-top: 15px;
-    padding: 10px;
+    padding: 20px;
     background-color:  rgb(60, 151, 255) ;
     color: white;
     text-align: center;
