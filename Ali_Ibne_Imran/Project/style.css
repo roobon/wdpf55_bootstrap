@@ -204,9 +204,9 @@ button{
     display: flex;
     padding: 50px;
 }
-.row4-content h4{
+.row4-box h4{
     text-align: center;
-    line-height: 50px;
+    padding-bottom: 20px;
     font-weight: bold;
     font-size: 20px;
 }
