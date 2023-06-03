@@ -8,6 +8,8 @@ header{
     margin: auto;
     background-color: rgba(7, 7, 7, 0.849);
     display: flex;
+    top: 0;
+    position: sticky;
 }
 .logo{
     width: 10%;
@@ -38,14 +40,15 @@ header{
     color: blueviolet;
 }
 .search{
-    width: 80%;
+    width: 30%;
     float: left;
+    /* border: 1px solid wheat; */
 }
-.srch{
-    width: 200px;
+.search input{
+    width: 70%;
     height: 40px;
     background: transparent;
-    border: 1px solid orange;
+    border: 1px solid blueviolet;
     margin-top: 20px;
     color: white;
     border-right: none;
@@ -55,20 +58,20 @@ header{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
-.btn{
-    width: 100px;
+.search button{
+    width: 20%;
     height: 40px;
-    background: orange;
-    border: 2px solid orange;
-    /* margin-top: 13px; */
+    margin-top: 20px;
+    background: blueviolet;
+    border: 1px solid blueviolet;
     color: white;
     font-size: 15px;
     border-top-right-radius: 5px;
 }
-.btn:focus{
+.search button:focus{
     outline: none;
 }
-.srch:focus{
+.search input:focus{
     outline: none;
 }
 
@@ -82,7 +85,7 @@ header{
 .row1{
     width: 100%;
     margin: auto;
-    background-image: url(back1.jpg);
+    background-image: url(./img/back1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 500px;
@@ -102,8 +105,8 @@ header{
 
 }
 .row1 button{
-    margin-left: 450px;
-    margin-top: 100px;
+    margin-top: 10%;
+    margin-left: 40%;
     background-color: orangered;
     padding: 10px;
     outline: 0;
@@ -115,16 +118,21 @@ header{
 }
 .row2{
     width: 100%;
-    margin-top: -20px;
+    margin-top: -30px;
 }
-button{
-    margin-left: 500px;
-    width: 200px;
-    padding: 10px;
+.row2 button{
+    margin-left: 30%;
+    width: 40%;
+    padding: 15px;
+    font-size: large;
     border: none;
     border-radius: 5px;
     background-color: blueviolet;
     color: white;
+}
+.row2 button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 .row2-content{
     display: flex;
@@ -151,6 +159,8 @@ button{
 }
 .row2-box:hover{
     box-shadow: 0px 2px 4px 0px;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 .row3a{
     width: 100%;
@@ -175,6 +185,8 @@ button{
 }
 .row3-box:hover{
     box-shadow: 0px 2px 0px 0px;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 .row3-box img{
     width: 100%;  
@@ -221,6 +233,8 @@ button{
 }
 .row4-box:hover{
     box-shadow: 2px 2px 4px 0px;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 .row5{
     width: 70%;
@@ -254,6 +268,9 @@ footer h1{
     text-align: center;
     padding: 20px;
     color: white;
+}
+footer hr{
+    box-shadow: 0px 2px 3px 0px;
 }
 .social{
     display: flex;

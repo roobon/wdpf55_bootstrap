@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* contact */
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.heading{
+    width: 100%;
+    margin: 30px auto;
+}
+h1{
+    box-shadow: 0px 2px 7px 2px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.main{
+    width: 100%;
+    margin: 20px auto;
+    background-color: gray;
+    box-shadow: 0px 3px 7px 3px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+}
+
+.left{
+    width: 40%;
+    padding-left: 40px;
+}
+.left h2{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+.left hr{
+    width: 50%;
+    margin-left: 10px;
+    box-shadow: 0px 2px 3px 0px;
+}
+.left p{
+    padding: 15px;
+    line-height: 30px;
+}
+.right{
+    width: 60%;
+    float: left;
+    padding-top: 10px;
+    padding-right: 40px;
+    margin-right: 0;
+}
+.right h2{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    /* margin-top: 10px; */
+    text-align: center;
+
+}
+.right hr{
+    width: 90%;
+    box-shadow: 0px 2px 3px 0px;
+    margin-bottom: 30px;
+}
+.contact{
+    width: 90%;
+    box-shadow: 0px 1px 1px 0px;
+    float: left;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+}
+.contact:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.contact label{
+    width: 20%;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.contact input{
+    width: 70%;
+    padding-top: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    /* border: 1px solid black; */
+    outline: 0;
+    background: transparent;
+    float: right;
+    margin-right: 5%;
+}
+::placeholder{
+    color: #a8a6a2;
+}
+textarea{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    /* border: 1px solid black; */
+    outline: 0;
+    background: transparent;
+    float: right;
+    margin-right: 5%;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: rgb(90, 89, 89);
+    color: wheat;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    color: gray;
+    background-color: white;
+}
+.map{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+iframe{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0px 3px 7px 3px;
+}
+
+
+
+/* header */
+
+header{
+    width: 90%;
+    margin: auto;
+    background-color: rgba(7, 7, 7, 0.849);
+    display: flex;
+    top: 0;
+    position: sticky;
+}
+.logo{
+    width: 10%;
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid wheat; */
+}
+.logo img{
+    width: 90%;
+    height: 50px;
+}
+.menu{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid wheat; */
+}
+.menu ,ul li{
+    display: inline-block;
+}
+.menu ,ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.menu ,ul li a:hover{
+    color: blueviolet;
+}
+.search{
+    width: 30%;
+    float: left;
+    /* border: 1px solid wheat; */
+}
+.search input{
+    width: 70%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid blueviolet;
+    margin-top: 20px;
+    color: white;
+    border-right: none;
+    float: left;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.search button{
+    width: 20%;
+    height: 40px;
+    margin-top: 20px;
+    background: blueviolet;
+    border: 1px solid blueviolet;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+}
+.search button:focus{
+    outline: none;
+}
+.search input:focus{
+    outline: none;
+}
+
+/* footer */
+
+
+footer{
+    clear: both;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(53, 52, 52);
+}
+footer h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+footer hr{
+    clear: both;
+    box-shadow: 0px 2px 3px 0px;
+}
+.social{
+    display: flex;
+    width: 60%;
+    margin: auto; 
+    padding: 30px;
+}
+.social img{
+    width: 50%;
+    border-radius: 50%;
+}
+.link{
+    width: 75%;
+    margin: auto;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.link a:hover{
+    color: blueviolet;
+}
+.copyright{
+    width: 90%;
+    margin: auto;
+}
+.copyright, h5{
+    clear: both;
+    text-align: center;
+    color: white;
+    background-color: rgb(53, 52, 52);
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+}
+
