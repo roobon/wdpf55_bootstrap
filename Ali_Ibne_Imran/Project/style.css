@@ -96,7 +96,8 @@ header{
 }
 .row1 h1{
     text-align: center;
-    line-height: 60px;
+    line-height: 80px;
+    margin-top: 40px;
 }
 .row1 p{
     text-align: center;
@@ -105,7 +106,7 @@ header{
 
 }
 .row1 button{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 40%;
     background-color: orangered;
     padding: 10px;
@@ -115,6 +116,11 @@ header{
     border-radius: 10px;
     width: 200px;
     cursor: pointer;
+    font-weight: bold;
+}
+.row1 button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 .row2{
     width: 100%;
@@ -129,10 +135,7 @@ header{
     border-radius: 5px;
     background-color: blueviolet;
     color: white;
-}
-.row2 button:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
+    font-weight: bolder;
 }
 .row2-content{
     display: flex;
