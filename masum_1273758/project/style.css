@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
 }
 .logo-img{
-    width: 40%;
+    /* width: 40%; */
 }
 .shoping-car{
     width: 20%;
@@ -26,6 +26,17 @@ header{
 .card-title{
     font-weight: bold;
 }
-
+.footer{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+ .my-card-img:hover {
+    transition: transform .3s;
+    transform: scale(1.5);
+}
 
 
