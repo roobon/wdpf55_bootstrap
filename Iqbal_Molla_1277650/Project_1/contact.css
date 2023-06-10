@@ -25,6 +25,12 @@ body {
      border: 1px solid rgb(161, 143, 143);
  }
  h2:hover{
-     background-color: black;
+     background-color: #116D6E;
      color: white;
+ }
+ .button {
+    text-align: center;
+ }
+ footer {
+    margin-top: 20px;
  }
