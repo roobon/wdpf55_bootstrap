@@ -17,5 +17,15 @@ body{
 header{
     background-color: antiquewhite;
 }
+.my-card-img{
+    width: 80%;
+}
+.jacket-section{
+    margin-top: 10px;
+}
+.card-title{
+    font-weight: bold;
+}
+
 
 
