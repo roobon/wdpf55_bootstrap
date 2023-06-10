@@ -5,22 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/code.jquery.com_jquery-3.6.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
     <title>Bootstrap Project 1</title>
 </head>
 <body>
-    <div class="container">
-        <h1>This is heading by bootstrap</h1>
-        <a name="btn" id="" class="btn btn-primary" href="#" role="button">Call</a>
-        <form action="" class="b4-form-file-custom">
-            <label for="a">A</label>
-            <input type="text">
-        </form>
+<!-- nav start -->
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-navigation">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!-- nav end -->
+<!-- header start -->
+        <header class="page-header header container-fluid">
+            <div class="overlay"></div>
+        </header>
+<!-- header end -->
 
-        <form action="">
-            <label for="a">bangladesh</label>
-            <input type="text">
-        </form>
-    </div>
 </body>
 </html>
