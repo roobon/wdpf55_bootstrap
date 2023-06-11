@@ -20,14 +20,14 @@ body {
  .navbar-collapse {
      justify-content: flex-end;
  }
- h1 {
+ h2 {
      text-align: center;
      border: 1px solid rgb(161, 143, 143);
  }
  .main-container{
      margin-bottom: 15px;
  }
- .main-container h1:hover{
-     background-color: black;
+ .main-container h2:hover{
+     background-color: #116D6E;
      color: white;
  }
