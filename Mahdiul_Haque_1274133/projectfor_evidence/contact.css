@@ -1,0 +1,20 @@
+
+  
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    background: url(pexels-photo-55787.webp)no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    height: 100px;
+  }
+  

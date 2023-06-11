@@ -1,0 +1,33 @@
+body {
+     padding: 0;
+     margin: 0;
+     background: #f2f6e9;
+ }
+ .navbar {
+     background:#56d715;
+ }
+ .nav-link,
+ .navbar-brand {
+     color: #fff;
+     cursor: pointer;
+ }
+ .nav-link {
+     margin-right: 1em !important;
+ }
+ .nav-link:hover {
+     color: blue;
+ }
+ .navbar-collapse {
+     justify-content: flex-end;
+ }
+ h2 {
+     text-align: center;
+     border: 1px solid rgb(161, 143, 143);
+ }
+ .main-container{
+     margin-bottom: 15px;
+ }
+ .main-container h2:hover{
+     background-color: #116D6E;
+     color: white;
+ }
