@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    header {
+        height: 150px;
+        background-color: blueviolet;
+    }
+    header img {
+        margin-top: 21px;
+        margin-left:21px;
+    }
+    footer {
+        height: 50px;
+        text-align: center;
+        font-size: 16px;
+        color: aliceblue;
+        padding: 10px;
+        background-color: rgb(104, 21, 105);
+    }
+    .search {
+        border: 1px solid black;
+    }
+    .search input {
+        border-radius: 0;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../project2/images/logo.PNG" height="100" alt="">
+        </header>
+        <!-- Horizontal Menu Start -->
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+              <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+              <button class="nav-link" id="nav-contact-tab" data-toggle="tab" data-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+            </div>
+          </nav> 
+          <!-- Horizontal Menu End -->
+          
+          
+          <!-- Vertical Menu -->
+          <div class="row offset-md-1">
+  <div class="col-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-home-tab" data-toggle="pill" data-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+      <button class="nav-link" id="v-pills-profile-tab" data-toggle="pill" data-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+      <button class="nav-link" id="v-pills-messages-tab" data-toggle="pill" data-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+      <form action="" class="form-inline search">
+        <input type="text" placeholder="search here" >
+        <button>Go</button>
+      </form>
+      
+    </div>
+  </div>
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <h1>Home Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam exercitationem blanditiis voluptatum adipisci laborum. Doloremque facilis aliquid ipsa, veniam ratione odio ab quae illum, tempora praesentium, deserunt dicta tenetur. Facere.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam exercitationem blanditiis voluptatum adipisci laborum. Doloremque facilis aliquid ipsa, veniam ratione odio ab quae illum, tempora praesentium, deserunt dicta tenetur. Facere.</p>
+      </div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+        <h1>Profile Page</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem cumque perferendis minus placeat beatae itaque optio qui dolore! Odio dolorem, deleniti est consectetur placeat blanditiis illo vel deserunt dignissimos odit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam exercitationem blanditiis voluptatum adipisci laborum. Doloremque facilis aliquid ipsa, veniam ratione odio ab quae illum, tempora praesentium, deserunt dicta tenetur. Facere.</p>
+      </div>
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+        <h1>Message Page</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora amet explicabo nisi magni incidunt accusantium error optio dolores. Harum animi porro necessitatibus assumenda nobis ratione laudantium quaerat iste. Recusandae, delectus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam exercitationem blanditiis voluptatum adipisci laborum. Doloremque facilis aliquid ipsa, veniam ratione odio ab quae illum, tempora praesentium, deserunt dicta tenetur. Facere.</p>
+      </div>
+      
+    </div>
+  </div>
+</div> 
+<footer>
+    This is footer
+</footer>     
+    </div>
+    
+</body>
+</html>
