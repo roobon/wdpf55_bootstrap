@@ -40,5 +40,10 @@ header{
 .my-card-img:hover {
     transform: scale(1.2);
 }
+.footer-up-img{width: 100px;}
+.beside-pic{
+    width: 650px;
+}
+
 
 
