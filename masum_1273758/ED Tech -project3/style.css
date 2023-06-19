@@ -10,3 +10,9 @@
     height: 450px;
     
 }
+.carousel-caption{
+    margin-bottom: 20%;
+}
+.carousel-caption h1{font-weight: bolder;
+    
+}
