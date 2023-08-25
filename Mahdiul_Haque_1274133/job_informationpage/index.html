@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+
+    <title>Job Information Page</title>
+  </head>
+  <body>
+   <div class="container-fluid bg">
+        <header class="text-center">
+             <h1 class="display-8">Fill up your Job Information</h1>
+        </header>
+   </div>
+    <section class="container">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="jobtitle" class="form-label">Job title</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="inputjobcategory" class="form-label">Job Category</label>
+          <select id="inputState" class="form-select">
+            <option selected>Select One</option>
+            <option>Junior Devloper</option>
+            <option>Junior Programmer</option>
+            <option>Wordpress Devloper</option>
+            <option>Programmer</option>
+            <option>Transaction Service Officer</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputcompanyname" class="form-label">Company Name</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Company Email</label>
+          <input type="email" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="inputcompanywebsite" class="form-label">Company Website(Optional)</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="inputlocation" class="form-label">Location</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="inputjobtype" class="form-label">Job Type</label>
+          <select id="inputState" class="form-select">
+            <option selected>Select One</option>
+            <option>Permanent</option>
+            <option>Contractual</option>
+            <option>Full Time</option>
+            <option>Part Time</option>
+            <option>Full Time and Permanent</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputjobtags" class="form-label">Job Tags</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="inputsalary" class="form-label">Salary</label>
+          <input type="number" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="inputexperience" class="form-label">Experience</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-md-6">
+          <label for="">Job Description</label>
+         <textarea name="jobdescription" id="" cols="15" rows="4" class="form-control"></textarea>
+         </div>
+     
+ 
+        <div class="text-center">
+          <button type="submit" class="btn btn-success">Post A Job</button>
+        </div>
+      </form>
+    </section>
+
+  </body>
+</html>
