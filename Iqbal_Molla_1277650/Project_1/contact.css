@@ -30,6 +30,7 @@ body {
  }
  .button {
     text-align: center;
+    padding: 0px 5px 0px 5px;
  }
  footer {
     margin-top: 20px;

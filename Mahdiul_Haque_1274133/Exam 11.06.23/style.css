@@ -1,0 +1,24 @@
+ header {
+    height: 150px;
+    background-color: aqua;
+ }
+
+ header img{
+    margin-top: 21px;
+    margin-left: 22px;
+ }
+
+ footer {
+    height: 130px;
+    background-color: aqua;
+    text-align: center;
+    padding: 16px;
+
+ }
+
+ .search {
+    border: 1px solid black;
+ }
+ .search input {
+    border-radius: 0;
+ }

@@ -1,0 +1,50 @@
+.nav-link:hover{
+    background-color: aqua;
+    padding: 10px;
+}
+.nav-link{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.carousel-inner{
+    height: 450px;
+    
+}
+.carousel-caption{
+    margin-bottom: 20%;
+}
+.carousel-caption h1{font-weight: bolder;
+    
+}
+.middle{
+    gap: 20px;
+    
+}
+.img{
+    width: 130px;
+}
+.explore{
+    background-color:aliceblue;
+}
+.register{ 
+    height: 40px;
+    margin-top: 40px;
+}
+.student-img{
+   gap: 10px;
+    width: 90%;
+}
+.star{
+    display: flex;
+    gap: 70%}
+    .company-logo{
+        height: 20px;
+    }
+    .footer{
+        height: 160px;
+    }
+
+
+
+
+

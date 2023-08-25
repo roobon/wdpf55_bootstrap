@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            float: left;
+            background-color: aquamarine;
+            width: 200px;
+            height: 700px;
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            padding-top: 20px;
+            font-size: 30px;
+            text-align: center;
+            color: black;
+        }
+        a:hover{
+            color: orangered;
+        }
+        iframe{
+            width: 80%;
+            float: left;
+            height: 700px;
+            background-color: rgb(219, 247, 247);
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="Table.html" target="content">Table</a>
+        <a href="Form.html" target="content">Form</a>
+    </div>
+    <div>
+        <iframe src="Table.html" frameborder="0" name="content"></iframe>
+    </div>
+</body>
+</html>

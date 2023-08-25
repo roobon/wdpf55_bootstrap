@@ -5,55 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> -->
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    
-    <a class="navbar-brand" href="#">
-       <img src="logo.png" alt="logo" height="50px" width="50px">
-    </a>
-   
-  
-   
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Contract</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
-        </li>
-     
-      
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="logo" height="50px" width="50px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Content</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Service 1</a></li>
+                  <li><a class="dropdown-item" href="#">Service 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Service 3</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="jumbroton text-center container-fluid bd-dark mt-5">
+        <h1>This is a Jumbotron</h1>
+        <hr class="m-3">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit eius dolor aspernatur, ducimus deleniti a in doloremque cum officia provident excepturi ipsum error necessitatibus nam eos, alias repellendus fugiat dicta incidunt ab accusantium, nihil totam. Eaque voluptatem minima cupiditate incidunt assumenda, ad aperiam aut quia iure et hic est molestiae, ducimus voluptatibus aspernatur aliquam. Nisi rerum voluptatem dolorum accusamus sit?</p>
     </div>
-    <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-  </form>
-  
-</nav>
-<div class="jumbotron text -center container-fluid bd-dark mt-5">
-    <h2>This is jumbotron</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, at. Repellat, amet corrupti esse, 
-        facere facilis atque maiores molestiae quaerat voluptatem, dignissimos laboriosam aspernatur! Cum quos, 
-        incidunt amet eos modi impedit assumenda iste fugit aspernatur error excepturi in rerum odit, nam iure illum 
-        consequatur sit doloremque ea quae aliquid. Labore nihil, recusandae cumque eum laudantium nostrum! Omnis modi 
-        eveniet ut molestias autem? Hic, rem doloremque numquam aspernatur sequi ipsa. Provident quisquam quam fugiat
-        corporis consequatur! Placeat eum obcaecati ratione delectus repellat deleniti voluptas totam autem incidunt
-         veniam aliquid omnis dolorem, vitae culpa vero! Ducimus fuga maxime accusantium officiis placeat ipsa repellendus,
-          nobis rem impedit ratione, blanditiis sit sed nostrum quia repudiandae provident quae quidem inventore obcaecati 
-          reprehenderit dolorum. Ab, explicabo.</p>
 
+    <div class="container-fluid mt-5">
+        <h1 class="text-center mb-3">This is card section</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

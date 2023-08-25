@@ -1,0 +1,20 @@
+.banner-text{
+    margin-top:10%;
+}
+.nav-link:hover{
+background-color: red;
+border-radius: 10px;
+padding: 10px;
+color: white !important;
+
+}
+.text-color{
+    color: rgb(75, 72, 95);
+}
+.font-awesome{
+    height: 30px;
+}
+
+
+
+
