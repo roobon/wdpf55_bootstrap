@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.header_section,h1{
+    background-color:rgb(3, 66, 66);
+    color: white;
+    }
+    .header_section,p{
+        font-size: 20px;
+    }
+.topnav,a{
+    text-decoration: none;
+    padding: 14px 16px;
+    color:white;
+    text-align:end;
+    font-size: 20px;
+    float: 0;
+    margin-top: 30px;
+}
+a:hover{
+    background-color: ghostwhite;
+    color:darkblue
+}
+.head_d{
+    display: flex;
+    justify-content: space-between;
+
+
+}
